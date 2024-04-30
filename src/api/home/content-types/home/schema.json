@@ -4,18 +4,19 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home"
+    "displayName": "Home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "HomeText1": {
-      "type": "string"
-    },
-    "HomeText2": {
-      "type": "text"
+    "HomeBanner": {
+      "displayName": "HomeBanner",
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.home-banner"
     }
   }
 }
