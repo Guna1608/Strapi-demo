@@ -17,6 +17,12 @@
       "type": "component",
       "repeatable": false,
       "component": "banner.home-banner"
+    },
+    "RevolutioniseYourCareer": {
+      "displayName": "RevolutioniseYourCareer",
+      "type": "component",
+      "repeatable": false,
+      "component": "revolutionise-your-career.revolutionise-your-career"
     }
   }
 }

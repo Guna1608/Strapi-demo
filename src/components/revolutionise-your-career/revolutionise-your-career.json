@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_revolutionise_your_career_revolutionise_your_careers",
+  "info": {
+    "displayName": "RevolutioniseYourCareer",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Imgtext": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Text1": {
+      "type": "text"
+    },
+    "Text2": {
+      "type": "blocks"
+    }
+  }
+}

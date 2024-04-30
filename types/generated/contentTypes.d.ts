@@ -375,6 +375,7 @@ export interface ApiHomeHome extends Schema.SingleType {
   };
   attributes: {
     HomeBanner: Attribute.Component<'banner.home-banner'>;
+    RevolutioniseYourCareer: Attribute.Component<'revolutionise-your-career.revolutionise-your-career'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
