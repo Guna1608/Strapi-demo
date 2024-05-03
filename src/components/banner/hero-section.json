@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_banner_hero_sections",
+  "info": {
+    "displayName": "Hero-section",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeroText1": {
+      "type": "string",
+      "required": true
+    },
+    "HeroText2": {
+      "type": "string",
+      "required": true
+    },
+    "HeroBanner": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "UspSection": {
+      "displayName": "UspSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.usp-section"
+    },
+    "HeroText3": {
+      "type": "text"
+    }
+  }
+}

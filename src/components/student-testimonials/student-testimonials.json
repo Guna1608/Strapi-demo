@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_student_testimonials_student_testimonials",
+  "info": {
+    "displayName": "StudentTestimonials",
+    "icon": "pencil"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "StudentReviewSlide": {
+      "displayName": "StudentReview",
+      "type": "component",
+      "repeatable": true,
+      "component": "student-testimonials.student-review"
+    }
+  }
+}

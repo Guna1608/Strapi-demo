@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_location_section_location_sections",
+  "info": {
+    "displayName": "LocationSection",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "LocationHeding": {
+      "type": "string"
+    },
+    "LocationSubHeding": {
+      "type": "text"
+    },
+    "LocationDec": {
+      "type": "text"
+    },
+    "MapImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "LocationPinImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "OfficeLocation": {
+      "displayName": "OfficeLocationAddress",
+      "type": "component",
+      "repeatable": true,
+      "component": "office-location-address.office-location-address"
+    }
+  }
+}

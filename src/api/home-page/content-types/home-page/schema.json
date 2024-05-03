@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.hero-section"
+    },
+    "OurAlumniImgs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-alumni.our-alumni"
+    },
+    "HomeSkillDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "two-text-component.two-text-component"
+    },
+    "VideoTestimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "video-testimonials.video-testimonials"
+    },
+    "LocationSection": {
+      "displayName": "LocationSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "location-section.location-section"
+    },
+    "ExperienceSection": {
+      "displayName": "ExperienceSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "experience-section.experience-section"
+    },
+    "WhyChooseDR": {
+      "displayName": "WhyChooseDR",
+      "type": "component",
+      "repeatable": false,
+      "component": "why-choose.why-choose-dr"
+    },
+    "StudentTestimonials": {
+      "displayName": "StudentTestimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "student-testimonials.student-testimonials"
+    },
+    "MainFooter": {
+      "displayName": "MainFooter",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.main-footer"
+    }
+  }
+}

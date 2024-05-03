@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_main_footers",
+  "info": {
+    "displayName": "MainFooter",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterDesc": {
+      "type": "text"
+    },
+    "FooterSideText": {
+      "type": "string"
+    },
+    "QuickLinks": {
+      "displayName": "FooterQuicklinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer-quicklinks"
+    },
+    "Adress": {
+      "type": "component",
+      "repeatable": true,
+      "component": "office-location-address.office-location-address",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_two_text_component_two_text_components",
+  "info": {
+    "displayName": "TwoTextComponent",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Text1": {
+      "type": "text"
+    },
+    "Text2": {
+      "type": "text"
+    }
+  }
+}

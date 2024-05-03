@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_banner_usp_sections",
+  "info": {
+    "displayName": "UspSection",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "UspSectionText": {
+      "type": "text"
+    },
+    "UspSectionIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

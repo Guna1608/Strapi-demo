@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_why_choose_why_choose_cards",
+  "info": {
+    "displayName": "WhyChooseCards",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "WhyChooseText": {
+      "type": "string"
+    },
+    "WhyChooseDesc": {
+      "type": "text"
+    },
+    "WhyChooseImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

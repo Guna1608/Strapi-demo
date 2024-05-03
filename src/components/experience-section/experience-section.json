@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_experience_section_experience_sections",
+  "info": {
+    "displayName": "ExperienceSection",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "text"
+    },
+    "ExperienceSectionCard": {
+      "displayName": "ExperienceSectionCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "experience-section.experience-section-card"
+    }
+  }
+}

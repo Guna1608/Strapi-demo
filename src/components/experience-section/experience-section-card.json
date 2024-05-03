@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_experience_section_experience_section_cards",
+  "info": {
+    "displayName": "ExperienceSectionCard",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Frame": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CardHeding": {
+      "type": "string"
+    },
+    "CardDesc": {
+      "type": "text"
+    }
+  }
+}

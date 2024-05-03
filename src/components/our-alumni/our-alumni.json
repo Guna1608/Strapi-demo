@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_our_alumni_our_alumni",
+  "info": {
+    "displayName": "OurAlumni",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "OurAlumniHeading": {
+      "type": "string"
+    },
+    "OurAlumniImgs": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

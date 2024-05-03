@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_student_testimonials_student_reviews",
+  "info": {
+    "displayName": "StudentReview"
+  },
+  "options": {},
+  "attributes": {
+    "StudentName": {
+      "type": "string"
+    },
+    "StudentReviewText": {
+      "type": "text"
+    },
+    "StudentImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
